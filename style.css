@@ -1058,7 +1058,7 @@ button.splide__pagination__page.is-active {
     }
 
     .shake-container {
-        /* min-height: 700px; */
+        min-height: 700px;
     }
 
     .lotus-right>img {
@@ -1074,6 +1074,10 @@ button.splide__pagination__page.is-active {
         height: 100%;
         width: auto;
     } */
+
+    section:nth-of-type(5)>.center>h1{
+        font-size: 2rem;
+    }
 }
 
 
