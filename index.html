@@ -332,7 +332,10 @@
             }).mount();
 
             window.addEventListener('resize', function () {
-                splide.go(1)
+                setTimeout(() => {
+                    splide.go('+1')
+                }, 1000)
+                console.log('heehe')
             });
         });
     </script>
