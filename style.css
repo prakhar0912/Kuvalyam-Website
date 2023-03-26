@@ -909,6 +909,7 @@ button.splide__pagination__page.is-active {
     }
 
     .section-split {
+        display: block;
         grid-template-columns: none;
         grid-template-rows: 50% 50%;
         align-items: center;
